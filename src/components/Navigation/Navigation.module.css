@@ -1,0 +1,25 @@
+.navigationBox{
+    /* border: 2px solid orangered; */
+    height: 10%;
+    display: flex;
+    border-bottom: 2px solid rgba(60, 64, 67, 0.247);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: x-large;
+    color: #308099;
+}
+.navLink{
+
+}
+.btnPrimary{
+    height: 40px;
+    background-color: #308099;
+    color: white;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    font-family: "poppinsSemiBold";
+}

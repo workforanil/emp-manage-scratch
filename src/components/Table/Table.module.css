@@ -1,0 +1,60 @@
+.chevron-left{
+    fill: white;
+}
+.paginationBox{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8%;
+    margin-top: 2%;
+}
+.searchBox{
+    /* border: 2px solid orange; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.searchBox input{
+    border: 2px solid #d4d4d4;
+    height: 60%;
+    width: 50%;
+}
+.searchBox input:focus{
+    outline: none;
+}
+.pagingBox{
+    /* border: 2px solid blue; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.pageButtons{
+    /* border: 2px solid green; */
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btnPrimary{
+    height: 80%;
+    width: 40%;
+    background-color: #308099;
+    color: white;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    font-family: "poppinsSemiBold";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnPrimary img{
+    height: 70%;
+    width: 70%;
+}
+.tableBox{
+    /* border: 2px solid orangered; */
+}
